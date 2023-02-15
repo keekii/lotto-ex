@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.home_container {
+		@apply flex-1 bg-gray-70 p-6;
+	}
+
+	.auth_container {
+		@apply flex-1 bg-white p-6;
+	}
+
+	.button_1 {
+		@apply bg-[#F8AA02] hover:bg-orange-600 text-[#1E1E1E];
+	}
+
+	.button_2 {
+		@apply bg-[#47AF25] hover:bg-green-600 text-[#FFFFFF];
+	}
+
+	.button_3 {
+		@apply bg-[#D11500] hover:bg-red-800 text-[#FFFFFF];
+	}
+
+	.header_1 {
+		@apply text-base font-semibold text-[#1E1E1E];
+	}
+
+	.card {
+	}
+
+	.card_1 {
+	}
+
+	.card_header {
+		@apply flex items-center rounded-t-md;
+	}
+
+	.card_header_1 {
+		@apply bg-[#F8C3D4] px-4 py-2;
+	}
+
+	.card_header_2 {
+		@apply bg-[#B9DEEA] px-4 py-2;
+	}
+
+	.card_text_header_1 {
+		@apply text-base font-semibold text-[#AB0038];
+	}
+
+	.card_text_header_2 {
+		@apply text-base font-semibold text-[#005B7B];
+	}
+
+	.card_sub_header_1 {
+		@apply text-xs font-medium bg-[#E2E2E2] py-2;
+	}
+
+	.card_body {
+		@apply bg-white rounded-b-md;
+	}
+
+	.card_content_1 {
+		@apply grid grid-cols-2 divide-x text-center text-xl font-semibold;
+	}
+
+	.card_text_content_1 {
+		@apply text-sm text-gray-700 font-medium;
+	}
+}
+
+:root {
+	background-color: lightcyan;
+}
